@@ -7,10 +7,30 @@
 <h1>Contacts</h1>
 <div class="container-fluid contacts-grid">
         <div class="row">&nbsp;</div>
-        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-5">
+                @if(sortType == "last"){
+                    <button @onclick="toggleSortType" style="margin-bottom:1%" class="buttonHover">
+                        Sorting by Last Name
+                    </button>
+                }
+
+                else{
+                   <button @onclick="toggleSortType" style="margin-bottom:1%" class="buttonHover">
+                        Sorting by First Name
+                    </button> 
+                }        
+                
+            </div>
+            <div class="col-5" style="text-align: right">
+                <a href="add">
+                    <button class="buttonHover" style="margin-bottom:1%">Add Contact</button>
+                </a>
+            </div>
+        </div>
         <div class="row contact-header">
             <div class="col-2">
-                Last Name
+                First Name
             </div>
             <div class="col-2">
                 Last Name
@@ -39,12 +59,17 @@
         {
             @foreach (var contact in Contacts)
             {
-                <div class="row contact-detail">
-                    <div class="col-2">@contact.LastName</div>
+                <div class="row contact-detail hoverMe">
                     <div class="col-2">@contact.FirstName</div>
+                    <div class="col-2">@contact.LastName</div>
                     <div class="col-2">@contact.BirthDate.ToShortDateString()</div>
                     <div class="col-2">@contact.Phone</div>
-                    <div class="col-2">Edit/View</div>
+                    <div class="col-2">
+                         <a href="edit/@contact.Id">
+                            Edit/View
+                        </a>
+                    </div>
+                    <div class="col-2 skipMe"></div>
                 </div>
             }
         }
@@ -53,6 +78,12 @@
 @code {
    
 
+    private string sortType = "last";
+
+    private async void toggleSortType(){
+        sortType = sortType == "last" ? "first": "last";
+        await ReloadAsync();
+    }
     protected override async Task OnInitializedAsync(){
         await ReloadAsync();
     }
@@ -73,7 +104,7 @@
         
 
          //run the query to load the current page
-        Contacts = await DBCommands.FetchAsync(context.Contacts.AsQueryable());
+        Contacts = await DBCommands.FetchAsync(context.Contacts.AsQueryable(), sortType);
 
 
 

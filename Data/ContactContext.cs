@@ -10,6 +10,7 @@ namespace CMS.Data
     /// </summary>
     public class ContactContext : DbContext
     {
+
         /// <summary>
         /// Tracking lifetime of contexts.
         /// </summary>

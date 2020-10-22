@@ -19,16 +19,23 @@ namespace CMS.DBCommands
 
         
 
+        private readonly Dictionary<string, Expression<Func<Contact, string>>> _expressions
+            = new Dictionary<string, Expression<Func<Contact, string>>>
+            {
+                {"first", c=> c.FirstName.ToLower()},
+                { "last", c => c.LastName.ToLower() },
+            };
+
 
         /// <summary>
         /// Uses the query to return a count and a page.
         /// </summary>
         /// <param name="query">The <see cref="IQueryable{Contact}"/> to work from.</param>
         /// <returns>The resulting <see cref="ICollection{Contact}"/>.</returns>
-        public async Task<ICollection<Contact>> FetchAsync(IQueryable<Contact> query)
+        public async Task<ICollection<Contact>> FetchAsync(IQueryable<Contact> query, string sortType)
         {
             await CountAsync(query);
-            var collection = await FetchPageQuery(query)
+            var collection = await FetchPageQuery(query, sortType)
                 .ToListAsync();
             pageItems = collection.Count;
             return collection;
@@ -49,9 +56,10 @@ namespace CMS.DBCommands
         /// </summary>
         /// <param name="query">The <see cref="IQueryable{Contact}"/> to modify.</param>
         /// <returns>The new <see cref="IQueryable{Contact}"/> for a page.</returns>
-        public IQueryable<Contact> FetchPageQuery(IQueryable<Contact> query)
+        public IQueryable<Contact> FetchPageQuery(IQueryable<Contact> query, string sortType)
         {
             return query
+                .OrderBy(_expressions[sortType])
                 .Take(pageItems)
                 .AsNoTracking();
         }

@@ -16,8 +16,6 @@ C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\CMS.csproj.CoreCompi
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\CMS.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\CMS.RazorComponent.input.cache
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -28,8 +26,6 @@ C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\CMS.TagHelpers.input
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\CMS.TagHelpers.output.cache
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\CMS.RazorCoreGenerate.cache
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
-C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
@@ -182,3 +178,11 @@ C:\Users\7339R\Documents\Epitec\CMS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAna
 C:\Users\7339R\Documents\Epitec\CMS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\7339R\Documents\Epitec\CMS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\7339R\Documents\Epitec\CMS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddContact.razor.g.cs
+C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\Pages\AddContact.razor.g.cs
+C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\ContactForm.razor.g.cs
+C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\Shared\ContactForm.razor.g.cs
+C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditContact.razor.g.cs
+C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\Pages\EditContact.razor.g.cs
+C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\DeletePrompt.razor.g.cs
+C:\Users\7339R\Documents\Epitec\CMS\obj\Debug\netcoreapp3.1\Razor\Shared\DeletePrompt.razor.g.cs

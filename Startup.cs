@@ -39,7 +39,6 @@ namespace CMS
                 opt.UseSqlite($"Data Source={nameof(ContactContext.ContactsDb)}.db"));
             #endregion
 
-            services.AddSingleton<WeatherForecastService>();
             services.AddScoped<EditSuccess>();
         }
 

@@ -39,8 +39,11 @@ namespace CMS.Data
         /// </summary>
         [Required]
         public DateTime BirthDate { get; set; }
-
+        public Contact()
+       {
+           //Init Date to today
+           BirthDate = DateTime.Now;
+       }
         
-
     }
 }

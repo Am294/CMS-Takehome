@@ -13,79 +13,61 @@ namespace CMS.Data
         /// Use these to make names.
         /// </summary>
         private readonly string[] _gems = new[] {
-            "Diamond",
+        "Allison",
         "Crystal",
-        "Morion",
-        "Azore",
-        "Sapphire",
-        "Cobalt",
-        "Aquamarine",
-        "Montana",
-        "Turquoise",
-        "Lime",
-        "Erinite",
-        "Emerald",
-        "Turmaline",
-        "Jonquil",
-        "Olivine",
-        "Topaz",
-        "Citrine",
-        "Sun",
-        "Quartz",
+        "Bailey",
+        "Jake",
+        "Barron",
+        "Josh",
+        "Jacob",
+        "Emily",
+        "Jenny",
+        "Julie",
+        "Jason",
+        "Jared",
+        "Brian",
+        "Juanita",
+        "Janice",
+        "Deborah",
+        "Autumn",
+        "April",
+        "May",
         "Opal",
-        "Alabaster",
+        "June",
         "Rose",
-        "Burgundy",
-        "Siam",
-        "Ruby",
-        "Amethyst",
-        "Violet",
-        "Lilac"};
+        "Patrick",
+        "James",
+        "Walter"
+        };
 
         /// <summary>
         /// Combined with things for last names.
         /// </summary>
         private readonly string[] _colors = new[]
         {
-            "Blue",
-            "Aqua",
-            "Red",
-            "Green",
-            "Orange",
-            "Yellow",
-            "Black",
-            "Violet",
-            "Brown",
-            "Crimson",
-            "Gray",
-            "Cyan",
-            "Magenta",
-            "White",
-            "Gold",
-            "Pink",
-            "Lavender"
+            "Ozborne",
+            "Shah",
+            "Highland",
+            "Lohrke",
+            "Stollings",
+            "Smith",
+            "Lorenzo",
+            "Cruz",
+            "Head",
+            "Bilby",
+            "Cherry",
+            "Winnie",
+            "Perry",
+            "Carey",
+            "Kraft",
+            "Hendry",
+            "Sherwin",
+            "Walters",
+            "Andrews",
+            "Leon"
         };
 
-        /// <summary>
-        /// Also helpful for names.
-        /// </summary>
-        private readonly string[] _things = new[]
-        {
-            "beard",
-            "finger",
-            "hand",
-            "toe",
-            "stalk",
-            "hair",
-            "vine",
-            "street",
-            "son",
-            "brook",
-            "river",
-            "lake",
-            "stone",
-            "ship"
-        };
+        
 
         private Random gen = new Random();
         DateTime RandomDay()
@@ -127,8 +109,8 @@ namespace CMS.Data
             var contact = new Contact
             {
                 FirstName = RandomOne(_gems),
-                LastName = $"{RandomOne(_colors)}{RandomOne(_things)}",
-                Phone = $"({_random.Next(100, 999)})-555-{_random.Next(1000, 9999)}",
+                LastName = $"{RandomOne(_colors)}",
+                Phone = $"({_random.Next(100, 999)})-{_random.Next(100, 999)}-{_random.Next(1000, 9999)}",
                 BirthDate = RandomDay()
             };
             return contact;

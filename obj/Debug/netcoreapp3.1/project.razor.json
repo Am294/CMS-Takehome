@@ -12,101 +12,312 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 358540728,
+        "HashCode": -652671657,
         "Kind": "Components.Component",
-        "Name": "CMS.Pages.Counter",
+        "Name": "CMS.App",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Pages.Counter"
+          "Common.TypeName": "CMS.App"
         }
       },
       {
-        "HashCode": 1457804884,
+        "HashCode": -704191109,
         "Kind": "Components.Component",
-        "Name": "CMS.Pages.Counter",
+        "Name": "CMS.App",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "CMS.Pages.Counter"
+            "TagName": "CMS.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Pages.Counter",
+          "Common.TypeName": "CMS.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -42956286,
+        "HashCode": 1212373356,
         "Kind": "Components.Component",
-        "Name": "CMS.Pages.FetchData",
+        "Name": "CMS.Shared.SurveyPrompt",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Pages.FetchData"
+          "Common.TypeName": "CMS.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": -924901002,
+        "HashCode": 605828049,
         "Kind": "Components.Component",
-        "Name": "CMS.Pages.FetchData",
+        "Name": "CMS.Shared.SurveyPrompt",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "CMS.Pages.FetchData"
+            "TagName": "CMS.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Pages.FetchData",
+          "Common.TypeName": "CMS.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 572779771,
+        "HashCode": 848567292,
         "Kind": "Components.Component",
-        "Name": "CMS.Pages.Index",
+        "Name": "CMS.Shared.DeletePrompt",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "DeletePrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Confirmation",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<member name=\"P:CMS.Shared.DeletePrompt.Confirmation\">\r\n    <summary>\r\n    Delegate confirmation to parent.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Confirmation",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Pages.Index"
+          "Common.TypeName": "CMS.Shared.DeletePrompt"
         }
       },
       {
-        "HashCode": 393032474,
+        "HashCode": 1614444590,
         "Kind": "Components.Component",
-        "Name": "CMS.Pages.Index",
+        "Name": "CMS.Shared.DeletePrompt",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "CMS.Pages.Index"
+            "TagName": "CMS.Shared.DeletePrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Confirmation",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<member name=\"P:CMS.Shared.DeletePrompt.Confirmation\">\r\n    <summary>\r\n    Delegate confirmation to parent.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Confirmation",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Pages.Index",
+          "Common.TypeName": "CMS.Shared.DeletePrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1938628139,
+        "Kind": "Components.Component",
+        "Name": "CMS.Shared.ContactForm",
+        "AssemblyName": "CMS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ContactForm"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ValidationResult",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<!-- Badly formed XML comment ignored for member \"P:CMS.Shared.ContactForm.ValidationResult\" -->\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ValidationResult",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CancelRequest",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.CancelRequest\">\r\n    <summary>\r\n    Let parent handle what to do on cancel.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "CancelRequest",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsAdd",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.IsAdd\">\r\n    <summary>\r\n    <c>True</c> if add mode.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsAdd"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Contact",
+            "TypeName": "CMS.Data.Contact",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.Contact\">\r\n    <summary>\r\n    The <see cref=\"P:CMS.Shared.ContactForm.Contact\"/> to upsert.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Contact"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DbContact",
+            "TypeName": "CMS.Data.Contact",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.DbContact\">\r\n    <summary>\r\n    The database version of <see cref=\"P:CMS.Shared.ContactForm.Contact\"/> if a concurrency issue\r\n    exists.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "DbContact"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Busy",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.Busy\">\r\n    <summary>\r\n    Prevent multiple asynchronous operations at the same time.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Busy"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ContactId",
+            "TypeName": "System.Int32",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.ContactId\">\r\n    <summary>\r\n    Mode.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ContactId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CMS.Shared.ContactForm"
+        }
+      },
+      {
+        "HashCode": -1452042681,
+        "Kind": "Components.Component",
+        "Name": "CMS.Shared.ContactForm",
+        "AssemblyName": "CMS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CMS.Shared.ContactForm"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ValidationResult",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<!-- Badly formed XML comment ignored for member \"P:CMS.Shared.ContactForm.ValidationResult\" -->\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ValidationResult",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CancelRequest",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.CancelRequest\">\r\n    <summary>\r\n    Let parent handle what to do on cancel.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "CancelRequest",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsAdd",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.IsAdd\">\r\n    <summary>\r\n    <c>True</c> if add mode.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsAdd"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Contact",
+            "TypeName": "CMS.Data.Contact",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.Contact\">\r\n    <summary>\r\n    The <see cref=\"P:CMS.Shared.ContactForm.Contact\"/> to upsert.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Contact"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DbContact",
+            "TypeName": "CMS.Data.Contact",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.DbContact\">\r\n    <summary>\r\n    The database version of <see cref=\"P:CMS.Shared.ContactForm.Contact\"/> if a concurrency issue\r\n    exists.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "DbContact"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Busy",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.Busy\">\r\n    <summary>\r\n    Prevent multiple asynchronous operations at the same time.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Busy"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ContactId",
+            "TypeName": "System.Int32",
+            "Documentation": "<member name=\"P:CMS.Shared.ContactForm.ContactId\">\r\n    <summary>\r\n    Mode.\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ContactId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CMS.Shared.ContactForm",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -240,88 +451,123 @@
         }
       },
       {
-        "HashCode": 1212373356,
+        "HashCode": -1607933989,
         "Kind": "Components.Component",
-        "Name": "CMS.Shared.SurveyPrompt",
+        "Name": "CMS.Pages.EditContact",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
+            "TagName": "EditContact"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
+            "Name": "ContactId",
+            "TypeName": "System.Int32",
+            "Documentation": "<member name=\"P:CMS.Pages.EditContact.ContactId\">\r\n    <summary>\r\n    Id of contact to edit\r\n    </summary>\r\n</member>\r\n",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "ContactId"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Shared.SurveyPrompt"
+          "Common.TypeName": "CMS.Pages.EditContact"
         }
       },
       {
-        "HashCode": 605828049,
+        "HashCode": -186543729,
         "Kind": "Components.Component",
-        "Name": "CMS.Shared.SurveyPrompt",
+        "Name": "CMS.Pages.EditContact",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "CMS.Shared.SurveyPrompt"
+            "TagName": "CMS.Pages.EditContact"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
+            "Name": "ContactId",
+            "TypeName": "System.Int32",
+            "Documentation": "<member name=\"P:CMS.Pages.EditContact.ContactId\">\r\n    <summary>\r\n    Id of contact to edit\r\n    </summary>\r\n</member>\r\n",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "ContactId"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Shared.SurveyPrompt",
+          "Common.TypeName": "CMS.Pages.EditContact",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -652671657,
+        "HashCode": 337096878,
         "Kind": "Components.Component",
-        "Name": "CMS.App",
+        "Name": "CMS.Pages.AddContact",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "AddContact"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.App"
+          "Common.TypeName": "CMS.Pages.AddContact"
         }
       },
       {
-        "HashCode": -704191109,
+        "HashCode": -967174973,
         "Kind": "Components.Component",
-        "Name": "CMS.App",
+        "Name": "CMS.Pages.AddContact",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "CMS.App"
+            "TagName": "CMS.Pages.AddContact"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.App",
+          "Common.TypeName": "CMS.Pages.AddContact",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 572779771,
+        "Kind": "Components.Component",
+        "Name": "CMS.Pages.Index",
+        "AssemblyName": "CMS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CMS.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 393032474,
+        "Kind": "Components.Component",
+        "Name": "CMS.Pages.Index",
+        "AssemblyName": "CMS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CMS.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CMS.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14711,6 +14957,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Pages\\EditContact.razor",
+      "TargetPath": "Pages\\EditContact.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
@@ -14721,24 +14972,24 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Shared\\DeletePrompt.razor",
+      "TargetPath": "Shared\\DeletePrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Shared\\ContactForm.razor",
+      "TargetPath": "Shared\\ContactForm.razor",
       "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Pages\\_Host.cshtml",
@@ -14753,6 +15004,11 @@
     {
       "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\7339R\\Documents\\Epitec\\CMS\\Pages\\AddContact.razor",
+      "TargetPath": "Pages\\AddContact.razor",
       "FileKind": "component"
     }
   ],

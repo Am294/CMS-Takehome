@@ -6,15 +6,19 @@ div.contact-header {
     font-weight: bold;
 }
 
-div.contact-header > div, div.contact-detail > div {
+div.contact-header > div, div.contact-detail > div:not(.skipMe) {
     border: 1px solid black;
     padding: 5px;
 }
 
-
-div.contact-detail:hover {
+.buttonHover:hover{
+    background: lightgray; 
+}
+.hoverMe:hover :not(.skipMe) {
     background: lightgray;
 }
+
+
 
 .clickable {
     cursor: pointer;
