@@ -206,11 +206,14 @@ else
     public bool confirmDelete = false;
    
  
+    //Makes delete pop up appear
     private void RequestDeleteBox()
     {
        confirmDelete = true;
     }
     
+
+    //Deletes contact on true else removes confirmDelete box
      private async Task ConfirmAsync(bool confirmed)
     {
         if (confirmed)
@@ -224,6 +227,8 @@ else
         }
     }
     
+
+    //Deletes contact
     private async Task DeleteContactAsync()
     {
         using var context = DbFactory.CreateDbContext();

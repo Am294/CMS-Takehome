@@ -45,6 +45,135 @@
         }
       },
       {
+        "HashCode": 1703302420,
+        "Kind": "Components.Component",
+        "Name": "CMS.Shared.MainLayout",
+        "AssemblyName": "CMS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CMS.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": -1429540884,
+        "Kind": "Components.Component",
+        "Name": "CMS.Shared.MainLayout",
+        "AssemblyName": "CMS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CMS.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CMS.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 519282728,
+        "Kind": "Components.ChildContent",
+        "Name": "CMS.Shared.MainLayout.Body",
+        "AssemblyName": "CMS",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "CMS.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -1331376749,
+        "Kind": "Components.ChildContent",
+        "Name": "CMS.Shared.MainLayout.Body",
+        "AssemblyName": "CMS",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "CMS.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "CMS.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1935611349,
+        "Kind": "Components.Component",
+        "Name": "CMS.Shared.NavMenu",
+        "AssemblyName": "CMS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CMS.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 2082229976,
+        "Kind": "Components.Component",
+        "Name": "CMS.Shared.NavMenu",
+        "AssemblyName": "CMS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CMS.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CMS.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1212373356,
         "Kind": "Components.Component",
         "Name": "CMS.Shared.SurveyPrompt",
@@ -94,63 +223,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "CMS.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 848567292,
-        "Kind": "Components.Component",
-        "Name": "CMS.Shared.DeletePrompt",
-        "AssemblyName": "CMS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DeletePrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Confirmation",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
-            "Documentation": "<member name=\"P:CMS.Shared.DeletePrompt.Confirmation\">\r\n    <summary>\r\n    Delegate confirmation to parent.\r\n    </summary>\r\n</member>\r\n",
-            "Metadata": {
-              "Common.PropertyName": "Confirmation",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Shared.DeletePrompt"
-        }
-      },
-      {
-        "HashCode": 1614444590,
-        "Kind": "Components.Component",
-        "Name": "CMS.Shared.DeletePrompt",
-        "AssemblyName": "CMS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CMS.Shared.DeletePrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Confirmation",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
-            "Documentation": "<member name=\"P:CMS.Shared.DeletePrompt.Confirmation\">\r\n    <summary>\r\n    Delegate confirmation to parent.\r\n    </summary>\r\n</member>\r\n",
-            "Metadata": {
-              "Common.PropertyName": "Confirmation",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Shared.DeletePrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -322,131 +394,59 @@
         }
       },
       {
-        "HashCode": 1703302420,
+        "HashCode": 848567292,
         "Kind": "Components.Component",
-        "Name": "CMS.Shared.MainLayout",
+        "Name": "CMS.Shared.DeletePrompt",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MainLayout"
+            "TagName": "DeletePrompt"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Name": "Confirmation",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<member name=\"P:CMS.Shared.DeletePrompt.Confirmation\">\r\n    <summary>\r\n    Delegate confirmation to parent.\r\n    </summary>\r\n</member>\r\n",
             "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
+              "Common.PropertyName": "Confirmation",
+              "Components.EventCallback": "True"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Shared.MainLayout"
+          "Common.TypeName": "CMS.Shared.DeletePrompt"
         }
       },
       {
-        "HashCode": -1429540884,
+        "HashCode": 1614444590,
         "Kind": "Components.Component",
-        "Name": "CMS.Shared.MainLayout",
+        "Name": "CMS.Shared.DeletePrompt",
         "AssemblyName": "CMS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "CMS.Shared.MainLayout"
+            "TagName": "CMS.Shared.DeletePrompt"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Name": "Confirmation",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<member name=\"P:CMS.Shared.DeletePrompt.Confirmation\">\r\n    <summary>\r\n    Delegate confirmation to parent.\r\n    </summary>\r\n</member>\r\n",
             "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
+              "Common.PropertyName": "Confirmation",
+              "Components.EventCallback": "True"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 519282728,
-        "Kind": "Components.ChildContent",
-        "Name": "CMS.Shared.MainLayout.Body",
-        "AssemblyName": "CMS",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "CMS.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -1331376749,
-        "Kind": "Components.ChildContent",
-        "Name": "CMS.Shared.MainLayout.Body",
-        "AssemblyName": "CMS",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "CMS.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "CMS.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1935611349,
-        "Kind": "Components.Component",
-        "Name": "CMS.Shared.NavMenu",
-        "AssemblyName": "CMS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 2082229976,
-        "Kind": "Components.Component",
-        "Name": "CMS.Shared.NavMenu",
-        "AssemblyName": "CMS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CMS.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CMS.Shared.NavMenu",
+          "Common.TypeName": "CMS.Shared.DeletePrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
